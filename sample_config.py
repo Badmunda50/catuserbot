@@ -40,11 +40,11 @@ class Config(object):
     else:
         EXTERNAL_REPO = None
     # if you need badcat plugins use the following vars
-    BADCAT = os.environ.get("BADCAT", False)
-    BADCAT = bool(BADCAT and (BADCAT.lower() != "false"))
+    BADCAT = os.environ.get("BADCAT", True)
+    BADCAT = bool(BADCAT and (BADCAT.lower() != "True"))
     # for vc plugins
-    VCMODE = os.environ.get("VCMODE", False)
-    VCMODE = bool(VCMODE and (VCMODE.lower() != "false"))
+    VCMODE = os.environ.get("VCMODE", True)
+    VCMODE = bool(VCMODE and (VCMODE.lower() != "True"))
     VC_SESSION = os.environ.get("VC_SESSION", None)
     # BASIC and MAIN CONFIG VARS
     # for profile default name
