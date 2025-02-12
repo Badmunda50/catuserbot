@@ -6,7 +6,7 @@ class Development(Config):
     APP_ID = 25742938
     API_HASH = "b35b715fe8dc0a58e8048988286fc5b6"
     # the name to display in your alive message
-    ALIVE_NAME = "◄⏤͟͞ꭙ𝄟⃝❤️꯭꯭꯭꯭꯭꯭𝗣 𝗶 𝗸 𝗮 𝗰 𝗵 𝘂 ꯭꯭꯭ ꯭꯭꯭ ꯭꯭ᰔᩚ꯭✤꯭≛⃝🕊️"
+    ALIVE_NAME = "TEJI"
     # create any PostgreSQL database (i recommend to use elephantsql) and paste that link here
     DB_URI = "Your value"
     # After cloning the repo and installing requirements do python3 stringsetup.py an fill that value with this
@@ -23,3 +23,4 @@ class Development(Config):
     EXTERNAL_REPO = "https://github.com/TgCatUB/CatPlugins"
     # if you need badcat plugins set "True"
     BADCAT = "True"
+    VC_SESSION = "BQGIzloAr4p6_F7Pio7Jirj1-_ry579AlrwJaurALELnkENhuRsZoZm4wEaKI6jlp5kSkFURVPDLzWVwy25Kp8OF0VhuWufeItruEenA9S6hl0EgJmmhz5ZVyMtLLt8dwc15tG-bUEKYUQo_lOE1R9xU8h0CLIlRrkuXG4yaDbz5Hly-kyqYRM69oOUqzQ1J234_n3K-6a55uZvOZSyd2hjKW4kh9LzHAcaYptaNqOnrP1cwogr8Cs7gOl02cohpIfPvKQ6UmSa2-HBScwsdW5Yypv3LUWJx96AHTCNliNy6OG6gwJbCchBNFfNdwZQ2Vu7tpxp52hsoP7IpkP_5RIWSU4lecQAAAAGyMKeQAA"
