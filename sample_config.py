@@ -40,11 +40,11 @@ class Config(object):
     else:
         EXTERNAL_REPO = None
     # if you need badcat plugins use the following vars
-    BADCAT = os.environ.get("BADCAT", True)
-    BADCAT = bool(BADCAT and (BADCAT.lower() != "Fasle"))
+    BADCAT = os.environ.get("BADCAT", False)
+    BADCAT = bool(BADCAT and (BADCAT.lower() != "false"))
     # for vc plugins
-    VCMODE = os.environ.get("VCMODE", True)
-    VCMODE = bool(VCMODE and (VCMODE.lower() != "Fasle"))
+    VCMODE = os.environ.get("VCMODE", False)
+    VCMODE = bool(VCMODE and (VCMODE.lower() != "false"))
     VC_SESSION = os.environ.get("VC_SESSION", None)
     # BASIC and MAIN CONFIG VARS
     # for profile default name
@@ -83,7 +83,7 @@ class Config(object):
     # specify command handler that should be used for the plugins
     # this should be a valid "regex" pattern
     COMMAND_HAND_LER = os.environ.get("COMMAND_HAND_LER", r".")
-    SUDO_COMMAND_HAND_LER = os.environ.get("SUDO_COMMAND_HAND_LER", r"©")
+    SUDO_COMMAND_HAND_LER = os.environ.get("SUDO_COMMAND_HAND_LER", r".")
     # set this with required folder path to act as download folder
     TMP_DOWNLOAD_DIRECTORY = os.environ.get("TMP_DOWNLOAD_DIRECTORY", "downloads")
     # set this with required folder path to act as temparary folder
