@@ -24,3 +24,4 @@ class Development(Config):
     # if you need badcat plugins set "True"
     BADCAT = "True"
     VC_SESSION = "BQGIzloAr4p6_F7Pio7Jirj1-_ry579AlrwJaurALELnkENhuRsZoZm4wEaKI6jlp5kSkFURVPDLzWVwy25Kp8OF0VhuWufeItruEenA9S6hl0EgJmmhz5ZVyMtLLt8dwc15tG-bUEKYUQo_lOE1R9xU8h0CLIlRrkuXG4yaDbz5Hly-kyqYRM69oOUqzQ1J234_n3K-6a55uZvOZSyd2hjKW4kh9LzHAcaYptaNqOnrP1cwogr8Cs7gOl02cohpIfPvKQ6UmSa2-HBScwsdW5Yypv3LUWJx96AHTCNliNy6OG6gwJbCchBNFfNdwZQ2Vu7tpxp52hsoP7IpkP_5RIWSU4lecQAAAAGyMKeQAA"
+    VCMODE = "True"
